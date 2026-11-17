@@ -11,7 +11,7 @@ SYNAPTIA es una aplicación web educativa que promueve el pensamiento crítico y
 
 ## ¿Qué incluye esta versión?
 
-La biblioteca inicial tiene **13 ejercicios originales** distribuidos en siete áreas:
+La biblioteca inicial tiene **15 ejercicios originales** distribuidos en siete áreas:
 
 | Área | Temas incluidos |
 |---|---|
@@ -69,7 +69,7 @@ Los problemas son ejercicios didácticos originales, no copias literales de los 
 - [Biology 2e — Mendel's Experiments and the Laws of Probability](https://openstax.org/books/biology-2e/pages/12-1-mendels-experiments-and-the-laws-of-probability)
 - [Chemistry 2e — Reaction Stoichiometry](https://openstax.org/books/chemistry-2e/pages/4-3-reaction-stoichiometry)
 - [Chemistry 2e — Molarity](https://openstax.org/books/chemistry-2e/pages/3-3-molarity)
-- [Calculus Volume 1 — The Derivative as a Function](https://openstax.org/books/calculus-volume-1/pages/3-2-the-derivative-as-a-function)
+- [Calculus Volume 1 — Differentiation Rules](https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules)
 - [Calculus Volume 1 — Derivatives and the Shape of a Graph](https://openstax.org/books/calculus-volume-1/pages/4-5-derivatives-and-the-shape-of-a-graph)
 - [University Physics Volume 1 — Newton's Second Law](https://openstax.org/books/university-physics-volume-1/pages/5-3-newtons-second-law)
 - [University Physics Volume 1 — Friction](https://openstax.org/books/university-physics-volume-1/pages/6-2-friction)
