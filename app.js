@@ -133,7 +133,7 @@
         {heading:"3. Sustituye x = 1",body:"f′(1) = e(2 + 1) = 3e. Con e ≈ 2,71828, f′(1) ≈ 8,154845. El valor exacto es 3e."}
       ],
       answerDisplay:"f′(1) = 3e ≈ 8,1548",
-      references:[{label:"OpenStax Calculus Volume 1 · 3.2 The Derivative as a Function",url:"https://openstax.org/books/calculus-volume-1/pages/3-2-the-derivative-as-a-function"}]
+      references:[{label:"OpenStax Calculus Volume 1 · 3.2 The Derivative as a Function",url:"https://openstax.org/books/calculus-volume-1/pages/3-3-differentiation-rules"}]
     },
     {
       id:"calc-minimum",subject:"Cálculo diferencial",category:"Cálculo",topic:"Optimización",
@@ -238,7 +238,7 @@
         {heading:"3. Intervalo como comprobación",body:"72 ± 4,128 produce (67,872; 76,128), aproximadamente (67,87; 76,13) puntos. El margen de error pedido es 4,128 puntos. Este intervalo usa el valor crítico t indicado y los supuestos señalados en el enunciado."}
       ],
       answerDisplay:"E = 4,128 puntos; IC del 95 % ≈ [67,87; 76,13]",
-      references:[{label:"OpenStax Introductory Statistics 2e · 8.2 Confidence Interval, Single Population Mean, Standard Deviation Unknown",url:"https://openstax.org/books/introductory-statistics-2e/pages/8-2-confidence-interval-single-population-mean-standard-deviation-unknown-student-t"}]
+      references:[{label:"OpenStax Introductory Statistics 2e · 8.2 Confidence Interval, Single Population Mean, Standard Deviation Unknown",url:"https://openstax.org/books/introductory-statistics-2e/pages/8-formula-review"}]
     },
     {
       id:"econ-elasticity",subject:"Economía",category:"Economía",topic:"Elasticidad precio de la demanda",
