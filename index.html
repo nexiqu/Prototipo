@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f7fb">
+  <meta name="description" content="SYNAPTIA: aprende con inteligencia artificial sin dejar de pensar por ti mismo.">
+  <title>SYNAPTIA — Aprende pensando</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="#" data-view-link="dashboard" aria-label="SYNAPTIA inicio">
+        <span class="brand-mark">S</span>
+        <span class="brand-name">synaptia<span class="brand-period">.</span><small>APRENDIZAJE CONSCIENTE</small></span>
+      </a>
+
+      <div class="side-label">ESPACIO DE APRENDIZAJE</div>
+      <nav class="main-nav" aria-label="Navegación principal">
+        <button class="nav-item active" data-view="dashboard"><span class="nav-icon">⌂</span> Inicio</button>
+        <button class="nav-item" data-view="history"><span class="nav-icon">◷</span> Mi progreso</button>
+        <button class="nav-item" data-view="guide"><span class="nav-icon">✳</span> Uso consciente de IA</button>
+      </nav>
+
+      <div class="sidebar-note">
+        <div class="note-symbol">✦</div>
+        <strong>Una mente activa<br>aprende mejor.</strong>
+        <p>La tecnología te acompaña. El razonamiento sigue siendo tuyo.</p>
+      </div>
+
+      <div class="sidebar-footer">
+        <span class="status-dot"></span>
+        <span>Tu espacio de estudio</span>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <div class="mobile-brand"><span class="brand-mark small-mark">S</span><strong>synaptia<span class="brand-period">.</span></strong></div>
+        <div class="breadcrumb"><span>Espacio personal</span><span class="crumb-divider">/</span><strong id="page-label">Inicio</strong></div>
+        <div class="topbar-right"><span class="topbar-date" id="current-date"></span><span class="avatar">S</span></div>
+      </header>
+
+      <section class="view active" id="view-dashboard">
+        <div class="welcome-row">
+          <div>
+            <div class="eyebrow"><span class="eyebrow-line"></span> TU ESPACIO PARA APRENDER MEJOR</div>
+            <h1>Hola, <span class="title-accent">mente curiosa.</span></h1>
+            <p class="welcome-copy">Hoy es una buena oportunidad para pensar, cuestionar y descubrir algo nuevo.</p>
+          </div>
+          <div class="daily-chip"><span>✦</span> Un paso a la vez</div>
+        </div>
+
+        <div class="hero-card">
+          <div class="hero-content">
+            <div class="hero-kicker">EL CONOCIMIENTO SE CONSTRUYE</div>
+            <h2>La respuesta importa.<br><em>El proceso, aún más.</em></h2>
+            <p>Antes de buscar una solución, date la oportunidad de encontrar tu propio camino. SYNAPTIA te acompaña sin pensar por ti.</p>
+            <button class="button button-light" data-action="focus-session">Comenzar una sesión <span>→</span></button>
+          </div>
+          <div class="hero-art" aria-hidden="true">
+            <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+            <div class="orbit-core">S</div>
+            <span class="node node-a"></span><span class="node node-b"></span><span class="node node-c"></span>
+            <span class="spark spark-a">✦</span><span class="spark spark-b">·</span>
+          </div>
+          <div class="hero-foot">PIENSA · EXPLORA · COMPRENDE</div>
+        </div>
+
+        <div class="section-heading stats-heading">
+          <div><span class="section-overline">TU CAMINO</span><h2>Tu aprendizaje en números</h2></div>
+          <span class="soft-label">Se guarda en este dispositivo</span>
+        </div>
+        <div class="stats-grid">
+          <article class="stat-card"><div class="stat-top"><span class="stat-icon lilac">✦</span><span class="stat-caption">SESIONES</span></div><strong id="stat-sessions">0</strong><span class="stat-foot">Sesiones completadas</span></article>
+          <article class="stat-card"><div class="stat-top"><span class="stat-icon mint">◷</span><span class="stat-caption">TIEMPO</span></div><strong id="stat-minutes">0 <small>min</small></strong><span class="stat-foot">Dedicados a pensar</span></article>
+          <article class="stat-card"><div class="stat-top"><span class="stat-icon peach">↗</span><span class="stat-caption">CONSTANCIA</span></div><strong id="stat-days">0 <small>días</small></strong><span class="stat-foot">Días con actividad</span></article>
+        </div>
+
+        <div class="dashboard-columns">
+          <section class="panel session-panel" id="session-start">
+            <div class="panel-heading">
+              <div><span class="section-overline">NUEVO ESPACIO DE TRABAJO</span><h2>¿Qué quieres aprender hoy?</h2></div>
+              <span class="step-pill">01 / 03</span>
+            </div>
+            <p class="panel-intro">Cuéntanos qué necesitas resolver. Primero tendrás un momento para pensar por tu cuenta.</p>
+            <form id="session-form">
+              <label for="subject">Materia o área <span class="optional">OPCIONAL</span></label>
+              <input id="subject" name="subject" type="text" maxlength="60" placeholder="Ej. Biología, cálculo, historia...">
+              <label for="task">¿En qué estás trabajando?</label>
+              <textarea id="task" name="task" rows="4" maxlength="1000" required placeholder="Describe el ejercicio, concepto o problema que quieres comprender..."></textarea>
+              <div class="form-bottom"><span class="helper-text">No necesitas escribir una pregunta perfecta.</span><button class="button button-primary" type="submit">Crear sesión <span>→</span></button></div>
+            </form>
+          </section>
+
+          <aside class="panel thought-panel">
+            <div class="thought-icon">“</div>
+            <span class="section-overline">UNA PREGUNTA PARA HOY</span>
+            <h3>¿Estoy buscando comprender o solamente terminar?</h3>
+            <p>La velocidad puede resolver una tarea. La comprensión te ayuda a resolver la siguiente.</p>
+            <div class="thought-divider"></div>
+            <span class="thought-signature">Una pausa también es parte del aprendizaje.</span>
+          </aside>
+        </div>
+
+        <div class="recent-row">
+          <div><span class="section-overline">CONTINUIDAD</span><h2>Tu última actividad</h2></div>
+          <button class="text-button" data-view="history">Ver historial <span>→</span></button>
+        </div>
+        <div id="recent-session" class="recent-card empty-recent"><span class="recent-empty-icon">◷</span><div><strong>Tu recorrido comienza aquí</strong><p>Cuando completes tu primera sesión, encontrarás su resumen en este espacio.</p></div></div>
+      </section>
+
+      <section class="view" id="view-practice">
+        <div class="page-intro">
+          <div class="eyebrow"><span class="eyebrow-line"></span> SESIÓN DE APRENDIZAJE</div>
+          <h1>Tu proceso, <span class="title-accent">a tu ritmo.</span></h1>
+          <p>Primero piensa. Después pide una pista. Al final, reflexiona sobre lo que aprendiste.</p>
+        </div>
+        <div id="practice-content"></div>
+      </section>
+
+      <section class="view" id="view-history">
+        <div class="page-intro">
+          <div class="eyebrow"><span class="eyebrow-line"></span> TU EVOLUCIÓN</div>
+          <h1>Aprender también es <span class="title-accent">mirar atrás.</span></h1>
+          <p>Observa tu constancia y reconoce los pasos que has dado.</p>
+        </div>
+        <div class="history-overview" id="history-overview"></div>
+        <div class="panel history-panel">
+          <div class="panel-heading"><div><span class="section-overline">REGISTRO PERSONAL</span><h2>Historial de sesiones</h2></div><span class="soft-label">Solo visible para ti</span></div>
+          <div id="history-list"></div>
+        </div>
+      </section>
+
+      <section class="view" id="view-guide">
+        <div class="page-intro">
+          <div class="eyebrow"><span class="eyebrow-line"></span> HERRAMIENTAS PARA PENSAR</div>
+          <h1>Usa la IA con <span class="title-accent">intención.</span></h1>
+          <p>No se trata de dejar de usarla. Se trata de no dejar de pensar.</p>
+        </div>
+        <div class="guide-hero">
+          <div class="guide-symbol">✳</div>
+          <div><span class="section-overline">LA IDEA CENTRAL</span><h2>La IA puede acompañar tu aprendizaje, pero no vivirlo por ti.</h2><p>Su valor depende de cómo la integres en tu proceso: como apoyo para explorar ideas, aclarar dudas y contrastar información.</p></div>
+        </div>
+        <div class="guide-grid">
+          <article class="guide-card"><span class="guide-number">01</span><div class="guide-icon">◎</div><h3>Intenta primero</h3><p>Lee la actividad, identifica qué sabes y realiza un primer intento antes de pedir una respuesta externa.</p><span class="guide-tag">AUTONOMÍA</span></article>
+          <article class="guide-card"><span class="guide-number">02</span><div class="guide-icon">⌁</div><h3>Pide orientación</h3><p>Solicita explicaciones, preguntas o pistas que te ayuden a avanzar, en lugar de pedir que resuelvan todo por ti.</p><span class="guide-tag">ACOMPAÑAMIENTO</span></article>
+          <article class="guide-card"><span class="guide-number">03</span><div class="guide-icon">◈</div><h3>Cuestiona el resultado</h3><p>Comprueba los datos, busca razones y contrasta la información con fuentes confiables.</p><span class="guide-tag">PENSAMIENTO CRÍTICO</span></article>
+          <article class="guide-card"><span class="guide-number">04</span><div class="guide-icon">↗</div><h3>Explica con tus palabras</h3><p>Si puedes explicar el procedimiento y justificar tus decisiones, estás construyendo comprensión.</p><span class="guide-tag">COMPRENSIÓN</span></article>
+        </div>
+        <div class="guide-reminder"><span>✦</span><div><strong>Una regla sencilla</strong><p>Si una herramienta hace todo el razonamiento por ti, detente y recupera una parte del proceso. Tu participación es indispensable.</p></div></div>
+      </section>
+
+      <footer class="app-footer"><span>SYNAPTIA © <span id="year"></span></span><span>La tecnología te acompaña. El pensamiento es tuyo.</span></footer>
+    </main>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
