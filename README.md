@@ -11,7 +11,7 @@ SYNAPTIA es una aplicación web educativa que promueve el pensamiento crítico y
 
 ## ¿Qué incluye esta versión?
 
-La biblioteca inicial tiene **15 ejercicios originales** distribuidos en siete áreas:
+La biblioteca inicial tiene **15 ejercicios originales** distribuidos en ocho áreas:
 
 | Área | Temas incluidos |
 |---|---|
